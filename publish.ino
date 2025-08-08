@@ -6,10 +6,10 @@ const char* ssid = "Z-tech";
 const char* password = "ngokngok";
 
 // MQTT Broker credentials
-const char* mqtt_server = "decomqtt.online";
+const char* mqtt_server = "";
 const int mqtt_port = 1883;
-const char* mqtt_user = "glosmon";
-const char* mqtt_password = "#glosmonIoT";
+const char* mqtt_user = "";
+const char* mqtt_password = "";
 
 // JSON Payload (ringkas agar muat di contoh; ganti dengan full JSON Anda)
 const char* jsonPayload = R"rawliteral(
